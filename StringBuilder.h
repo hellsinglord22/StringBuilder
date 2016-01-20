@@ -28,11 +28,11 @@ void append(char character, const StringBuilder* head);
 
 
 /**
- * print() - print the content of our string
+ * print_string() - print the content of our string
  * 
  * @param const StringBuilder* head - a reference to our string 
  */
-void print(const StringBuilder head);
+void print_string(const StringBuilder head);
 
 
 /**

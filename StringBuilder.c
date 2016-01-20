@@ -14,11 +14,28 @@
  * create() - create a StringBuilder
  * @param const char* first - first character into our StringBuilder 
  * 
- * @return StringBuilder - return a reference to our new created string 
+ * @return StringBuilder - return a reference to our new created string and NULL if an error occur.
  */
- StringBuilder* create(const char firt)
+ StringBuilder* create(const char first)
  {
-     //TODO
+     // Create our StringBuilder and give all it's value NULL 
+     StringBuilder* created = calloc(1, sizeof(StringBuilder));
+     
+     // Sanity Check 
+     if (created == NULL)
+     {
+         return NULL; 
+     }
+     
+     // a pointer to our newly created String
+     StringBuilder* pointer = created; 
+     
+     // Add the value of our newly created String 
+     pointer->character = first;
+     
+     // lets celebrate this with returning a reference of our string new string 
+     return created; 
+     
  }
  
  /**

@@ -27,5 +27,13 @@ typedef struct SingleLinkedList
 void append(char* character, const StringBuilder* head);
 
 
+/**
+ * print() - print the content of our string
+ * 
+ * @param const StringBuilder* head - a reference to our string 
+ */
+void print(const stringBuilder* head);
+
+
 
 #endif 

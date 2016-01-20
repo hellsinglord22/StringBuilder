@@ -18,6 +18,14 @@ typedef struct SingleLinkedList
  */
  StringBuilder* create(const char* firt);
  
- 
+ /**
+  * append() - append character to our string 
+  * 
+  * @param char* character - the character to append to the end of our String
+  * @param const StringBuilder* head - a reference to head of our string 
+  */
+void append(char* character, const StringBuilder* head);
+
+
 
 #endif 

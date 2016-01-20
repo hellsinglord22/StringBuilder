@@ -18,6 +18,10 @@ int main(int argc,char ** argv)
 
     // Starting the testing program
     StringBuilder* head = create('a');
+    append('b', head);
+    append('c', head);
+    
+    print_string(head);
 
 
     return 0; 

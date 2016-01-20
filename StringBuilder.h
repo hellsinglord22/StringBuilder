@@ -32,7 +32,8 @@ void append(char* character, const StringBuilder* head);
  * 
  * @param const StringBuilder* head - a reference to our string 
  */
-void print(const stringBuilder* head);
+void print(const StringBuilder* head);
+
 
 
 

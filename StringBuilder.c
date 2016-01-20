@@ -102,5 +102,12 @@ void print_string(StringBuilder* head)
  */
  void destroy(StringBuilder* head)
  {
-     //TODO
+   if (head == NULL)
+    {
+        return;
+    }   
+    
+    StringBuilder* pointer = head->next;
+    destroy(pointer);
+    free(head);
  }

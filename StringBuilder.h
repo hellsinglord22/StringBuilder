@@ -1,11 +1,13 @@
 #ifndef STRINGBUILDER_H
 #define STRINGBUILDER_H
 
-//Libraries 
 
 // DataType 
-
-
+typedef struct SingleLinkedList
+{
+    char* character; 
+    struct SingleLinkedList* next; 
+}StringBuilder; 
 
 
 #endif 

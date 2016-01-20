@@ -35,6 +35,14 @@ void append(char* character, const StringBuilder* head);
 void print(const StringBuilder* head);
 
 
+/**
+ * destroy() - free memory allocated by the string 
+ * 
+ * @param const StringBuilder* head - a reference to the string we going to destroy
+ */
+ void destroy(const StringBuilder* head);
+
+
 
 
 #endif 

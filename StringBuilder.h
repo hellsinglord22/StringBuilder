@@ -5,7 +5,7 @@
 // DataType 
 typedef struct SingleLinkedList
 {
-    char* character; 
+    char character; 
     struct SingleLinkedList* next; 
 }StringBuilder; 
 

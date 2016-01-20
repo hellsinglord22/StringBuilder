@@ -16,7 +16,7 @@
  * 
  * @return StringBuilder - return a reference to our new created string 
  */
- StringBuilder* create(const char* firt)
+ StringBuilder* create(const char firt)
  {
      //TODO
  }
@@ -27,7 +27,7 @@
   * @param char* character - the character to append to the end of our String
   * @param const StringBuilder* head - a reference to head of our string 
   */
-void append(char* character, const StringBuilder* head)
+void append(char character, const StringBuilder* head)
 {
     //TODO
 }
@@ -49,7 +49,7 @@ void print(const StringBuilder* head)
  * 
  * @param const StringBuilder* head - a reference to the string we going to destroy
  */
- void destroy(const StringBuilder* head)
+ void destroy(const StringBuilder head)
  {
      //TODO
  }

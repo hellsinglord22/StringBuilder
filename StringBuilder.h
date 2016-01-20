@@ -32,7 +32,7 @@ void append(char character, const StringBuilder* head);
  * 
  * @param const StringBuilder* head - a reference to our string 
  */
-void print_string(const StringBuilder head);
+void print_string(const StringBuilder* head);
 
 
 /**
@@ -40,7 +40,7 @@ void print_string(const StringBuilder head);
  * 
  * @param const StringBuilder* head - a reference to the string we going to destroy
  */
- void destroy(const StringBuilder head);
+ void destroy(const StringBuilder* head);
 
 
 

@@ -66,7 +66,7 @@ void print_string(const StringBuilder* head)
  * 
  * @param const StringBuilder* head - a reference to the string we going to destroy
  */
- void destroy(const StringBuilder head)
+ void destroy(const StringBuilder* head)
  {
      //TODO
  }

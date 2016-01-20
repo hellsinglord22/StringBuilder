@@ -17,11 +17,18 @@ int main(int argc,char ** argv)
     }
 
     // Starting the testing program
+
+    /* Create and Append */ 
     StringBuilder* head = create('a');
     append('b', head);
     append('c', head);
     
+    /* print */ 
     print_string(head);
+    
+    /* free memory */ 
+    destroy(head);
+    
 
 
     return 0; 

@@ -22,25 +22,25 @@ typedef struct SingleLinkedList
   * append() - append character to our string 
   * 
   * @param char* character - the character to append to the end of our String
-  * @param const StringBuilder* head - a reference to head of our string 
+  * @param StringBuilder* head - a reference to head of our string 
   */
-void append(char character, const StringBuilder* head);
+void append(char character, StringBuilder* head);
 
 
 /**
  * print_string() - print the content of our string
  * 
- * @param const StringBuilder* head - a reference to our string 
+ * @param StringBuilder* head - a reference to our string 
  */
-void print_string(const StringBuilder* head);
+void print_string(StringBuilder* head);
 
 
 /**
  * destroy() - free memory allocated by the string 
  * 
- * @param const StringBuilder* head - a reference to the string we going to destroy
+ * @param StringBuilder* head - a reference to the string we going to destroy
  */
- void destroy(const StringBuilder* head);
+ void destroy(StringBuilder* head);
 
 
 

@@ -82,7 +82,16 @@ void append(char character, StringBuilder* head)
  */
 void print_string(StringBuilder* head)
 {
-    //TODO
+    // a pointer to the head 
+    StringBuilder* pointer = head; 
+    
+    // lets loop and print 
+    while(pointer != NULL)
+    {
+        // print string 
+        printf("%c", pointer->character);
+        pointer = pointer->next; 
+    }
 }
 
 
